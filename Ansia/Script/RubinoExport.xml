@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<struct>
+    <irrTime>20/11/2022 00:00:00</irrTime>
+    <irrTime>20/11/2022 00:15:00</irrTime>
+    <irrTime>20/11/2022 00:30:00</irrTime>
+    <irrTime>20/11/2022 00:45:00</irrTime>
+    <irrTime>20/11/2022 01:00:00</irrTime>
+    <irrTime>20/11/2022 01:15:00</irrTime>
+    <irrTime>20/11/2022 01:30:00</irrTime>
+    <irrTime>20/11/2022 01:45:00</irrTime>
+    <irrTime>20/11/2022 02:00:00</irrTime>
+    <irrTime>20/11/2022 02:15:00</irrTime>
+    <irrTime>20/11/2022 02:30:00</irrTime>
+    <irrTime>20/11/2022 02:45:00</irrTime>
+    <irrTime>20/11/2022 03:00:00</irrTime>
+    <irrTime>20/11/2022 03:15:00</irrTime>
+    <irrTime>20/11/2022 03:30:00</irrTime>
+    <irrTime>20/11/2022 03:45:00</irrTime>
+    <irrTime>20/11/2022 04:00:00</irrTime>
+    <irrTime>20/11/2022 04:15:00</irrTime>
+    <irrTime>20/11/2022 04:30:00</irrTime>
+    <irrTime>20/11/2022 04:45:00</irrTime>
+    <irrTime>20/11/2022 05:00:00</irrTime>
+    <irrTime>20/11/2022 05:15:00</irrTime>
+    <irrTime>20/11/2022 05:30:00</irrTime>
+    <irrTime>20/11/2022 05:45:00</irrTime>
+    <irrTime>20/11/2022 06:00:00</irrTime>
+    <irrTime>20/11/2022 06:15:00</irrTime>
+    <irrTime>20/11/2022 06:30:00</irrTime>
+    <irrTime>20/11/2022 06:45:00</irrTime>
+    <irrTime>20/11/2022 07:00:00</irrTime>
+    <irrTime>20/11/2022 07:15:00</irrTime>
+    <irrTime>20/11/2022 07:30:00</irrTime>
+    <irrTime>20/11/2022 07:45:00</irrTime>
+    <irrTime>20/11/2022 08:00:00</irrTime>
+    <irrTime>20/11/2022 08:15:00</irrTime>
+    <irrTime>20/11/2022 08:30:00</irrTime>
+    <irrTime>20/11/2022 08:45:00</irrTime>
+    <irrTime>20/11/2022 09:00:00</irrTime>
+    <irrTime>20/11/2022 09:15:00</irrTime>
+    <irrTime>20/11/2022 09:30:01</irrTime>
+    <irrTime>20/11/2022 09:45:00</irrTime>
+    <irrTime>20/11/2022 10:00:00</irrTime>
+    <irrTime>20/11/2022 10:15:00</irrTime>
+    <irrTime>20/11/2022 10:30:00</irrTime>
+    <irrTime>20/11/2022 10:45:00</irrTime>
+    <irrTime>20/11/2022 11:00:00</irrTime>
+    <irrTime>20/11/2022 11:15:00</irrTime>
+    <irrTime>20/11/2022 11:30:00</irrTime>
+    <irrTime>20/11/2022 11:45:00</irrTime>
+    <irrTime>20/11/2022 12:00:00</irrTime>
+    <irrTime>20/11/2022 12:15:00</irrTime>
+    <irrTime>20/11/2022 12:30:00</irrTime>
+    <irrTime>20/11/2022 12:45:00</irrTime>
+    <irrTime>20/11/2022 13:00:01</irrTime>
+    <irrTime>20/11/2022 13:15:00</irrTime>
+    <irrTime>20/11/2022 13:30:00</irrTime>
+    <irrTime>20/11/2022 13:45:00</irrTime>
+    <irrTime>20/11/2022 14:00:00</irrTime>
+    <irrTime>20/11/2022 14:15:00</irrTime>
+    <irrTime>20/11/2022 14:30:00</irrTime>
+    <irrValue>0.6</irrValue>
+    <irrValue>0.6</irrValue>
+    <irrValue>0.5</irrValue>
+    <irrValue>0.5</irrValue>
+    <irrValue>0.5</irrValue>
+    <irrValue>0.5</irrValue>
+    <irrValue>0.5</irrValue>
+    <irrValue>0.5</irrValue>
+    <irrValue>0.6</irrValue>
+    <irrValue>0.5</irrValue>
+    <irrValue>0.5</irrValue>
+    <irrValue>0.6</irrValue>
+    <irrValue>0.6</irrValue>
+    <irrValue>0.6</irrValue>
+    <irrValue>0.6</irrValue>
+    <irrValue>0.6</irrValue>
+    <irrValue>0.5</irrValue>
+    <irrValue>0.5</irrValue>
+    <irrValue>0.6</irrValue>
+    <irrValue>0.5</irrValue>
+    <irrValue>0.6</irrValue>
+    <irrValue>0.5</irrValue>
+    <irrValue>0.5</irrValue>
+    <irrValue>0.5</irrValue>
+    <irrValue>0.5</irrValue>
+    <irrValue>0.5</irrValue>
+    <irrValue>0.5</irrValue>
+    <irrValue>0.5</irrValue>
+    <irrValue>0.5</irrValue>
+    <irrValue>1</irrValue>
+    <irrValue>4.1</irrValue>
+    <irrValue>11.8</irrValue>
+    <irrValue>25.3</irrValue>
+    <irrValue>36</irrValue>
+    <irrValue>267.1</irrValue>
+    <irrValue>550.9</irrValue>
+    <irrValue>627.5</irrValue>
+    <irrValue>689.8</irrValue>
+    <irrValue>746.2</irrValue>
+    <irrValue>790.2</irrValue>
+    <irrValue>823.6</irrValue>
+    <irrValue>855.4</irrValue>
+    <irrValue>880.1</irrValue>
+    <irrValue>900.8</irrValue>
+    <irrValue>916.3</irrValue>
+    <irrValue>929.3</irrValue>
+    <irrValue>937.5</irrValue>
+    <irrValue>945.6</irrValue>
+    <irrValue>948.1</irrValue>
+    <irrValue>949.5</irrValue>
+    <irrValue>946.4</irrValue>
+    <irrValue>942.6</irrValue>
+    <irrValue>934.2</irrValue>
+    <irrValue>926.4</irrValue>
+    <irrValue>501.2</irrValue>
+    <irrValue>302.4</irrValue>
+    <irrValue>292.1</irrValue>
+    <irrValue>121.6</irrValue>
+    <irrValue>137.2</irrValue>
+    <powTime>20/11/2022 00:00:00</powTime>
+    <powTime>20/11/2022 00:15:00</powTime>
+    <powTime>20/11/2022 00:30:00</powTime>
+    <powTime>20/11/2022 00:45:00</powTime>
+    <powTime>20/11/2022 01:00:00</powTime>
+    <powTime>20/11/2022 01:15:00</powTime>
+    <powTime>20/11/2022 01:30:00</powTime>
+    <powTime>20/11/2022 01:45:00</powTime>
+    <powTime>20/11/2022 02:00:00</powTime>
+    <powTime>20/11/2022 02:15:00</powTime>
+    <powTime>20/11/2022 02:30:00</powTime>
+    <powTime>20/11/2022 02:45:00</powTime>
+    <powTime>20/11/2022 03:00:00</powTime>
+    <powTime>20/11/2022 03:15:00</powTime>
+    <powTime>20/11/2022 03:30:00</powTime>
+    <powTime>20/11/2022 03:45:00</powTime>
+    <powTime>20/11/2022 04:00:00</powTime>
+    <powTime>20/11/2022 04:15:00</powTime>
+    <powTime>20/11/2022 04:30:00</powTime>
+    <powTime>20/11/2022 04:45:00</powTime>
+    <powTime>20/11/2022 05:00:00</powTime>
+    <powTime>20/11/2022 05:15:00</powTime>
+    <powTime>20/11/2022 05:30:00</powTime>
+    <powTime>20/11/2022 05:45:00</powTime>
+    <powTime>20/11/2022 06:00:00</powTime>
+    <powTime>20/11/2022 06:15:00</powTime>
+    <powTime>20/11/2022 06:30:00</powTime>
+    <powTime>20/11/2022 06:45:00</powTime>
+    <powTime>20/11/2022 07:00:00</powTime>
+    <powTime>20/11/2022 07:15:00</powTime>
+    <powTime>20/11/2022 07:30:00</powTime>
+    <powTime>20/11/2022 07:45:00</powTime>
+    <powTime>20/11/2022 08:00:00</powTime>
+    <powTime>20/11/2022 08:15:00</powTime>
+    <powTime>20/11/2022 08:30:00</powTime>
+    <powTime>20/11/2022 08:45:00</powTime>
+    <powTime>20/11/2022 09:00:00</powTime>
+    <powTime>20/11/2022 09:15:00</powTime>
+    <powTime>20/11/2022 09:30:01</powTime>
+    <powTime>20/11/2022 09:45:00</powTime>
+    <powTime>20/11/2022 10:00:00</powTime>
+    <powTime>20/11/2022 10:15:00</powTime>
+    <powTime>20/11/2022 10:30:00</powTime>
+    <powTime>20/11/2022 10:45:00</powTime>
+    <powTime>20/11/2022 11:00:00</powTime>
+    <powTime>20/11/2022 11:15:00</powTime>
+    <powTime>20/11/2022 11:30:00</powTime>
+    <powTime>20/11/2022 11:45:00</powTime>
+    <powTime>20/11/2022 12:00:00</powTime>
+    <powTime>20/11/2022 12:15:00</powTime>
+    <powTime>20/11/2022 12:30:00</powTime>
+    <powTime>20/11/2022 12:45:00</powTime>
+    <powTime>20/11/2022 13:00:01</powTime>
+    <powTime>20/11/2022 13:15:00</powTime>
+    <powTime>20/11/2022 13:30:00</powTime>
+    <powTime>20/11/2022 13:45:00</powTime>
+    <powTime>20/11/2022 14:00:00</powTime>
+    <powTime>20/11/2022 14:15:00</powTime>
+    <powTime>20/11/2022 14:30:00</powTime>
+    <powValue>0</powValue>
+    <powValue>0</powValue>
+    <powValue>0.1</powValue>
+    <powValue>0.033</powValue>
+    <powValue>0.033</powValue>
+    <powValue>0</powValue>
+    <powValue>0.267</powValue>
+    <powValue>0.233</powValue>
+    <powValue>0</powValue>
+    <powValue>0.067</powValue>
+    <powValue>0.1</powValue>
+    <powValue>0.2</powValue>
+    <powValue>0</powValue>
+    <powValue>0</powValue>
+    <powValue>0</powValue>
+    <powValue>0.1</powValue>
+    <powValue>0.233</powValue>
+    <powValue>0.067</powValue>
+    <powValue>0.033</powValue>
+    <powValue>0.1</powValue>
+    <powValue>0.333</powValue>
+    <powValue>0</powValue>
+    <powValue>0</powValue>
+    <powValue>0.033</powValue>
+    <powValue>0</powValue>
+    <powValue>0.167</powValue>
+    <powValue>0.033</powValue>
+    <powValue>0</powValue>
+    <powValue>0</powValue>
+    <powValue>0</powValue>
+    <powValue>0.033</powValue>
+    <powValue>0</powValue>
+    <powValue>1.267</powValue>
+    <powValue>10.667</powValue>
+    <powValue>41.1</powValue>
+    <powValue>86.067</powValue>
+    <powValue>205.633</powValue>
+    <powValue>259.633</powValue>
+    <powValue>339.367</powValue>
+    <powValue>420.9</powValue>
+    <powValue>426.4</powValue>
+    <powValue>438.567</powValue>
+    <powValue>456.533</powValue>
+    <powValue>484.633</powValue>
+    <powValue>507.667</powValue>
+    <powValue>524.033</powValue>
+    <powValue>531.533</powValue>
+    <powValue>526.133</powValue>
+    <powValue>532.6</powValue>
+    <powValue>534.833</powValue>
+    <powValue>520.067</powValue>
+    <powValue>517.933</powValue>
+    <powValue>502.767</powValue>
+    <powValue>504.4</powValue>
+    <powValue>490.4</powValue>
+    <powValue>480.333</powValue>
+    <powValue>430.1</powValue>
+    <powValue>404.867</powValue>
+    <powValue>388.333</powValue>
+    <Eirr>4.4717</Eirr>
+    <Eprod>2593.6706</Eprod>
+</struct>

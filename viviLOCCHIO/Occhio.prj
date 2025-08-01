@@ -1,0 +1,79 @@
+<deployment-project plugin="plugin.webdeploy" plugin-version="1.0">
+  <configuration file="C:\Users\Sviluppo_Software_ZG\Documents\MATLAB\viviLOCCHIO\Occhio.prj" location="C:\Users\Sviluppo_Software_ZG\Documents\MATLAB\viviLOCCHIO" name="Occhio" target="target.webdeploy" target-name="Web App Compiler">
+    <param.appname>VIviLOcchio</param.appname>
+    <param.intermediate>${PROJECT_ROOT}\Occhio</param.intermediate>
+    <param.files.only>${PROJECT_ROOT}\Occhio</param.files.only>
+    <param.output />
+    <param.checkbox>false</param.checkbox>
+    <param.logdir>${PROJECT_ROOT}\Occhio</param.logdir>
+    <param.target.type>subtarget.web.app</param.target.type>
+    <param.user.defined.mcr.options />
+    <param.support.packages />
+    <unset>
+      <param.intermediate />
+      <param.files.only />
+      <param.output />
+      <param.checkbox />
+      <param.logdir />
+      <param.target.type />
+      <param.user.defined.mcr.options />
+      <param.support.packages />
+    </unset>
+    <fileset.web.main>
+      <file>${PROJECT_ROOT}\viviLOCCHIO.mlapp</file>
+    </fileset.web.main>
+    <fileset.resources />
+    <fileset.depfun>
+      <file>C:\Users\Stefano Trevisan\Desktop\Matlab works\Auto mail\LP2SERVICE\Matlab aux\Sendmail2\sendmail2.m</file>
+      <file>${PROJECT_ROOT}\changeStateLampStatus.m</file>
+      <file>${PROJECT_ROOT}\createGraphSpace.m</file>
+      <file>${PROJECT_ROOT}\identifyError.m</file>
+      <file>${PROJECT_ROOT}\PlotH2OCharge.m</file>
+      <file>${PROJECT_ROOT}\PlotH2OPower.m</file>
+      <file>${PROJECT_ROOT}\plotIdro.m</file>
+      <file>${PROJECT_ROOT}\plotPV.m</file>
+      <file>${PROJECT_ROOT}\plotPVPower.m</file>
+      <file>${PROJECT_ROOT}\plotQMean.m</file>
+      <file>${PROJECT_ROOT}\printError.m</file>
+      <file>${PROJECT_ROOT}\process3F.m</file>
+      <file>${PROJECT_ROOT}\processHonda.m</file>
+      <file>${PROJECT_ROOT}\Read3FFerroData.m</file>
+      <file>${PROJECT_ROOT}\Read3FPlasticaData.m</file>
+      <file>${PROJECT_ROOT}\ReadHonda1Data.m</file>
+      <file>${PROJECT_ROOT}\ReadHonda2Data.m</file>
+      <file>${PROJECT_ROOT}\ReadHonda3Data.m</file>
+      <file>${PROJECT_ROOT}\RefreshData.m</file>
+      <file>${PROJECT_ROOT}\refreshTimeLabel.m</file>
+      <file>${PROJECT_ROOT}\setEmailOptions.m</file>
+      <file>${PROJECT_ROOT}\setTimer.m</file>
+      <file>${PROJECT_ROOT}\setXAxisLimits.m</file>
+      <file>${PROJECT_ROOT}\switchStateLamp.m</file>
+      <file>${PROJECT_ROOT}\upload3FData.m</file>
+      <file>${PROJECT_ROOT}\uploadHondaData.m</file>
+    </fileset.depfun>
+    <fileset.package />
+    <build-deliverables>
+      <file location="${PROJECT_ROOT}\Occhio" name="VIviLOcchio.ctf" optional="false">C:\Users\Sviluppo_Software_ZG\Documents\MATLAB\viviLOCCHIO\Occhio\VIviLOcchio.ctf</file>
+    </build-deliverables>
+    <workflow />
+    <matlab>
+      <root>C:\Program Files\MATLAB\R2022b</root>
+      <toolboxes />
+    </matlab>
+    <platform>
+      <unix>false</unix>
+      <mac>false</mac>
+      <windows>true</windows>
+      <win2k>false</win2k>
+      <winxp>false</winxp>
+      <vista>false</vista>
+      <linux>false</linux>
+      <solaris>false</solaris>
+      <osver>10.0</osver>
+      <os32>false</os32>
+      <os64>true</os64>
+      <arch>win64</arch>
+      <matlab>true</matlab>
+    </platform>
+  </configuration>
+</deployment-project>

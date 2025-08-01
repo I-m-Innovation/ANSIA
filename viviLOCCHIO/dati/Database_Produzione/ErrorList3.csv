@@ -1,0 +1,4 @@
+SiglaErrore,NumeroErrore,Funzione,Messaggio
+EFFLAB,1,refreshEffLabel,"Reference to a cleared variable Data."
+ST,49,processST,"Unrecognized function or variable 'A'."
+EFFLAB,49,refreshEffLabel,"Unrecognized method, property, or field 'Data' for class 'Occhio3'."

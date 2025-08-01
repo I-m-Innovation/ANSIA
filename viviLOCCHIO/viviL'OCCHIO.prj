@@ -1,0 +1,141 @@
+<deployment-project plugin="plugin.ezdeploy" plugin-version="1.0">
+  <configuration file="C:\Users\Stefano Trevisan\Desktop\5. Own Software\Matlab works\viviLOCCHIO\viviL'OCCHIO.prj" location="C:\Users\Stefano Trevisan\Desktop\5. Own Software\Matlab works\viviLOCCHIO" name="viviL'OCCHIO" target="target.ezdeploy.standalone" target-name="Application Compiler">
+    <param.appname>viviL'OCCHIO(BETA)</param.appname>
+    <param.icon />
+    <param.icons />
+    <param.version>0.6</param.version>
+    <param.authnamewatermark>Stefano Trevisan</param.authnamewatermark>
+    <param.email />
+    <param.company />
+    <param.summary>Keep eyes on VIVIesco energy production</param.summary>
+    <param.description>Application for monitoring renwable enrergy production plants.</param.description>
+    <param.screenshot />
+    <param.guid />
+    <param.installpath.string>\viviL'OCCHIO(BETA)\</param.installpath.string>
+    <param.installpath.combo>option.installpath.programfiles</param.installpath.combo>
+    <param.logo />
+    <param.install.notes />
+    <param.target.install.notes />
+    <param.intermediate>${PROJECT_ROOT}\viviL'OCCHIO\for_testing</param.intermediate>
+    <param.files.only>${PROJECT_ROOT}\viviL'OCCHIO\for_redistribution_files_only</param.files.only>
+    <param.output>${PROJECT_ROOT}\viviL'OCCHIO\for_redistribution</param.output>
+    <param.logdir>${PROJECT_ROOT}\viviL'OCCHIO</param.logdir>
+    <param.enable.clean.build>false</param.enable.clean.build>
+    <param.user.defined.mcr.options />
+    <param.target.type>subtarget.standalone</param.target.type>
+    <param.support.packages />
+    <param.web.mcr>true</param.web.mcr>
+    <param.package.mcr>false</param.package.mcr>
+    <param.no.mcr>false</param.no.mcr>
+    <param.web.mcr.name>MyAppInstaller_web</param.web.mcr.name>
+    <param.package.mcr.name>MyAppInstaller_mcr</param.package.mcr.name>
+    <param.no.mcr.name>MyAppInstaller_app</param.no.mcr.name>
+    <param.windows.command.prompt>true</param.windows.command.prompt>
+    <param.create.log>false</param.create.log>
+    <param.log.file />
+    <param.native.matlab>false</param.native.matlab>
+    <param.checkbox>false</param.checkbox>
+    <param.example />
+    <param.help.text>Syntax 
+	  -? 
+	 
+ Input Arguments 
+	 -?  print help on how to use the application 
+	 input arguments</param.help.text>
+    <unset>
+      <param.icon />
+      <param.icons />
+      <param.email />
+      <param.company />
+      <param.screenshot />
+      <param.guid />
+      <param.installpath.string />
+      <param.installpath.combo />
+      <param.logo />
+      <param.install.notes />
+      <param.target.install.notes />
+      <param.intermediate />
+      <param.files.only />
+      <param.output />
+      <param.logdir />
+      <param.enable.clean.build />
+      <param.user.defined.mcr.options />
+      <param.target.type />
+      <param.support.packages />
+      <param.web.mcr />
+      <param.package.mcr />
+      <param.no.mcr />
+      <param.web.mcr.name />
+      <param.package.mcr.name />
+      <param.no.mcr.name />
+      <param.windows.command.prompt />
+      <param.create.log />
+      <param.log.file />
+      <param.native.matlab />
+      <param.checkbox />
+      <param.example />
+    </unset>
+    <fileset.main>
+      <file>${PROJECT_ROOT}\viviLOCCHIO.mlapp</file>
+    </fileset.main>
+    <fileset.resources />
+    <fileset.package />
+    <fileset.depfun>
+      <file>${PROJECT_ROOT}\2552px-Honda_Logo.svg.png</file>
+      <file>${PROJECT_ROOT}\changeStateLampStatus.m</file>
+      <file>${PROJECT_ROOT}\createGraphSpace.m</file>
+      <file>${PROJECT_ROOT}\evaluateData.m</file>
+      <file>${PROJECT_ROOT}\identifyError.m</file>
+      <file>${PROJECT_ROOT}\Logo3F8.jpg</file>
+      <file>${PROJECT_ROOT}\plotBackGround.m</file>
+      <file>${PROJECT_ROOT}\PlotH2OCharge.m</file>
+      <file>${PROJECT_ROOT}\PlotH2OPower.m</file>
+      <file>${PROJECT_ROOT}\plotIdro.m</file>
+      <file>${PROJECT_ROOT}\plotPV.m</file>
+      <file>${PROJECT_ROOT}\plotQMean.m</file>
+      <file>${PROJECT_ROOT}\printError.m</file>
+      <file>${PROJECT_ROOT}\process3F.m</file>
+      <file>${PROJECT_ROOT}\processHonda.m</file>
+      <file>${PROJECT_ROOT}\Read3FFerroData.m</file>
+      <file>${PROJECT_ROOT}\Read3FPlasticaData.m</file>
+      <file>${PROJECT_ROOT}\ReadHonda1Data.m</file>
+      <file>${PROJECT_ROOT}\ReadHonda2Data.m</file>
+      <file>${PROJECT_ROOT}\ReadHonda3Data.m</file>
+      <file>${PROJECT_ROOT}\RefreshData.m</file>
+      <file>${PROJECT_ROOT}\refreshEffText.m</file>
+      <file>${PROJECT_ROOT}\refreshTimeLabel.m</file>
+      <file>${PROJECT_ROOT}\setEmailOptions.m</file>
+      <file>${PROJECT_ROOT}\setTimer.m</file>
+      <file>${PROJECT_ROOT}\setXAxisLimits.m</file>
+      <file>${PROJECT_ROOT}\switchStateLamp.m</file>
+      <file>${PROJECT_ROOT}\upload3FData.m</file>
+      <file>${PROJECT_ROOT}\uploadHondaData.m</file>
+      <file>C:\Users\Stefano Trevisan\Desktop\Matlab works\Auto mail\LP2SERVICE\Matlab aux\Sendmail2\sendmail2.m</file>
+    </fileset.depfun>
+    <build-deliverables>
+      <file location="${PROJECT_ROOT}\viviL'OCCHIO\for_testing" name="viviL'OCCHIO(BETA).exe" optional="false">C:\Users\Stefano Trevisan\Desktop\5. Own Software\Matlab works\viviLOCCHIO\viviL'OCCHIO\for_testing\viviL'OCCHIO(BETA).exe</file>
+      <file location="${PROJECT_ROOT}\viviL'OCCHIO\for_testing" name="readme.txt" optional="true">C:\Users\Stefano Trevisan\Desktop\5. Own Software\Matlab works\viviLOCCHIO\viviL'OCCHIO\for_testing\readme.txt</file>
+      <file location="${PROJECT_ROOT}\viviL'OCCHIO\for_testing" name="splash.png" optional="false">C:\Users\Stefano Trevisan\Desktop\5. Own Software\Matlab works\viviLOCCHIO\viviL'OCCHIO\for_testing\splash.png</file>
+    </build-deliverables>
+    <workflow />
+    <matlab>
+      <root>C:\Program Files\MATLAB\R2022a</root>
+      <toolboxes />
+    </matlab>
+    <platform>
+      <unix>false</unix>
+      <mac>false</mac>
+      <windows>true</windows>
+      <win2k>false</win2k>
+      <winxp>false</winxp>
+      <vista>false</vista>
+      <linux>false</linux>
+      <solaris>false</solaris>
+      <osver>10.0</osver>
+      <os32>false</os32>
+      <os64>true</os64>
+      <arch>win64</arch>
+      <matlab>true</matlab>
+    </platform>
+  </configuration>
+</deployment-project>

@@ -1,0 +1,69 @@
+function Data=uploadPGData(app)
+
+%creaNuovoDB(app);
+
+host='192.168.10.211';
+ftpobj=ftp(host,'ftpdaticentzilio','Sd2PqAS.We8zBK');
+mget(ftpobj,"dati/ponte_giurino/");
+
+Tab=readtable("dati/ponte_giurino/PGDailyPlot.csv");
+Time=datetime(Tab.t,'InputFormat','dd/MM/uuuu HH:mm:ss','Format','dd/MM/uuuu HH:mm:ss');
+Power=Tab.P;
+Flow=Tab.Q;
+Pressure = Tab.h * 10.1974;
+
+
+lastEta = Power(end)/ (9.81*Flow(end)*Pressure(end));
+
+Today=datetime("today","Format","dd/MM/uuuu");
+% Today=Today-'01:00:00';
+% Power=powers(Time>=Today);
+% Flow=flow(Time>=Today);
+% Pressure=pressure(Time>=Today);
+% Time=Time(Time>=Today);
+
+% Power=string(Power);
+% Power=strrep(Power,',','.');
+% Power=double(Power);
+% 
+% Flow=string(Flow);
+% Flow=strrep(Flow,',','.');
+% Flow=double(Flow);
+% 
+% Pressure=string(Pressure);
+% Pressure=strrep(Pressure,',','.');
+% Pressure=double(Pressure);
+
+% Time2=datetime(Tab.x__TimeStamp,'InputFormat','dd/MM/uuuu HH:mm:ss','Format','dd/MM/uuuu HH:mm:ss');
+% 
+% firstOfTheYear="01/01/"+string(datetime('now','Format','uuuu'))+" 00:00:00";
+% firstOfTheYear=datetime(firstOfTheYear,'Format','dd/MM/uuuu HH:mm:ss');
+
+Tab=readtable("dati/ponte_giurino/QMediaAnno.csv");
+Flow2023=Tab.QMediaAnno;
+% 
+% Flow2023=string(Flow2023);
+% Flow2023=strrep(Flow2023,',','.');
+% Flow2023=double(Flow2023);
+% FlowMean2023=mean(Flow2023);
+
+% Data.Producibile = calcolaProducibile(Flow,Pressure); 
+Data.timeStamp=Time;
+Data.Power=Power;
+Data.Flow=Flow;
+%Data.Pressure=Pressure;
+Data.MeanFlow2022=Flow2023;
+
+if isempty(Power)==0
+
+    Data.Fault=0;
+
+else
+
+    Data.Fault=1;
+
+end
+
+%Data.NoLinkIntervals=findNoLink(app,Data,"PG");
+
+end
