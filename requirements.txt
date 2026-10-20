@@ -1,6 +1,0 @@
-numpy
-matplotlib
-python-dotenv
-requests
-polars
-numba
