@@ -17,18 +17,22 @@ def _fmt(value, digits=1):
 def _chart(series):
     frame = series.samples
     fig, left = plt.subplots(figsize=(9, 4), constrained_layout=True)
-    left.fill_between(frame["timestamp"], frame["power_kw"], alpha=0.45, color="#4f9d69")
-    left.plot(frame["timestamp"], frame["power_kw"], color="#287343", linewidth=1.4, label="Potenza")
+    timestamps = frame.get_column("timestamp").to_list()
+    power = frame.get_column("power_kw").to_numpy()
+    flow = frame.get_column("flow_m3_s").to_numpy()
+    left.fill_between(timestamps, power, alpha=0.45, color="#4f9d69")
+    left.plot(timestamps, power, color="#287343", linewidth=1.4, label="Potenza")
     left.set_ylabel("Potenza [kW]")
     left.set_ylim(bottom=0)
     right = left.twinx()
-    right.plot(frame["timestamp"], frame["flow_m3_s"], color="#2788b5", linewidth=1.3, label="Portata")
+    right.plot(timestamps, flow, color="#2788b5", linewidth=1.3, label="Portata")
     right.set_ylabel("Portata [m³/s]")
     right.set_ylim(bottom=0)
-    timezone = frame["timestamp"].iloc[0].tz
+    timezone = timestamps[0].tzinfo
     left.xaxis.set_major_formatter(mdates.DateFormatter("%H:%M", tz=timezone))
     left.grid(True, alpha=0.25)
     left.set_title(series.plant.name)
+    # Il PNG rimane in memoria: lo stesso payload può essere allegato inline o scritto nell'anteprima.
     output = BytesIO()
     fig.savefig(output, format="png", dpi=130)
     plt.close(fig)

@@ -17,6 +17,7 @@ def send_html_report(html, images, settings):
     message.set_content("Il report giornaliero degli impianti è disponibile in formato HTML.")
     message.add_alternative(html, subtype="html")
     html_part = message.get_body(preferencelist=("html",))
+    # I Content-ID corrispondono agli URL cid: del markup prodotto dal renderer del report.
     for cid, filename, payload in images:
         html_part.add_related(
             payload,

@@ -5,9 +5,9 @@ import time
 from datetime import datetime
 
 from Scripts.config import load_settings
-from Scripts.data_sources import PLANTS, fetch_hydro_data
-from Scripts.reports import build_daily_report, save_preview
-from Scripts.smtp_delivery import send_html_report
+from Scripts.calculator_service.data_sources import PLANTS, fetch_hydro_data
+from Scripts.mail_service.reports import build_daily_report, save_preview
+from Scripts.mail_service.smtp_delivery import send_html_report
 from Services.calculation import calculation
 
 
@@ -26,6 +26,7 @@ class mail_server:
 
         for plant in PLANTS:
             try:
+                # Un errore su un impianto genera una sezione NO LINK, senza interrompere il report completo.
                 series = fetch_hydro_data(plant, self.settings)
                 metrics = self.calculation.calculate_daily_metrics(series, plant)
                 section, image = build_daily_report(plant, series, metrics)
@@ -37,6 +38,7 @@ class mail_server:
                 sections.append(build_daily_report(plant, None, None, unavailable=True)[0])
 
         html = "<h1 style='text-align:center'>Report giornaliero impianti</h1>" + "<hr>".join(sections)
+        # SMTP è una scelta esplicita; in modalità predefinita il report resta consultabile in locale.
         if self.settings.smtp_enabled:
             send_html_report(html, inline_images, self.settings)
             self.logger.info("ANSIA report email sent")

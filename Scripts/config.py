@@ -33,6 +33,13 @@ class Settings:
     ftp_username: str
     ftp_password: str
     ftp_timeout: int
+    higeco_base_url: str
+    higeco_username: str
+    higeco_password: str
+    hsi_base_url: str
+    hsi_username: str
+    hsi_password: str
+    api_timeout: int
     smtp_enabled: bool
     smtp_host: str
     smtp_port: int
@@ -66,6 +73,13 @@ def load_settings():
         ftp_username=os.getenv("FTP_USERNAME", ""),
         ftp_password=os.getenv("FTP_PASSWORD", ""),
         ftp_timeout=int(os.getenv("FTP_TIMEOUT", "30")),
+        higeco_base_url=os.getenv("HIGECO_BASE_URL", "https://higeco-monitoraggio.it/api/v1").rstrip("/"),
+        higeco_username=os.getenv("HIGECO_USERNAME", ""),
+        higeco_password=os.getenv("HIGECO_PASSWORD", ""),
+        hsi_base_url=os.getenv("HSI_BASE_URL", "https://hsi.higeco.com/api/v1").rstrip("/"),
+        hsi_username=os.getenv("HSI_USERNAME", ""),
+        hsi_password=os.getenv("HSI_PASSWORD", ""),
+        api_timeout=int(os.getenv("API_TIMEOUT", "30")),
         smtp_enabled=os.getenv("SMTP_ENABLED", "false").lower() in {"1", "true", "yes"},
         smtp_host=os.getenv("SMTP_HOST", ""),
         smtp_port=int(os.getenv("SMTP_PORT", "587")),

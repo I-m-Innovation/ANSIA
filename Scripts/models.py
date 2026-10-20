@@ -2,7 +2,7 @@
 
 from dataclasses import dataclass
 
-import pandas as pd
+import polars as pl
 
 
 @dataclass(frozen=True)
@@ -20,7 +20,7 @@ class Plant:
 @dataclass
 class HydroSeries:
     plant: Plant
-    samples: pd.DataFrame
+    samples: pl.DataFrame
 
 
 @dataclass(frozen=True)
